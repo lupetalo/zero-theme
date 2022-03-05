@@ -3,3 +3,52 @@ Theme Name: Zero
 Version: 1.1.1
 GitHub Theme URI: https://github.com/lupetalo/zero-theme/
 */
+
+html,
+body,
+div,
+form,
+fieldset,
+legend,
+caption,
+label,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre
+{
+    font-size: 100%;
+    font-weight: normal;
+
+    margin: 0;
+    padding: 0;
+
+    vertical-align: baseline;
+
+    border: 0;
+    outline: 0;
+    background: transparent;
+}
+
+table
+{
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+th,
+td
+{
+    text-align: left;
+    vertical-align: top;
+}
+
+img
+{
+    border: 0;
+}
